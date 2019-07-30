@@ -1,0 +1,20 @@
+{
+  "name": "wsnodechat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src"
+  },
+  "keywords": [],
+  "author": "WolfSkull Team",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.6.7",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.2.0"
+  }
+}

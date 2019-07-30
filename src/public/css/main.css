@@ -1,0 +1,24 @@
+ body{
+    background: #c94b4b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4b134f, #c94b4b); 
+ }
+
+ #contentWrap{
+    display: none;
+ }
+    
+ .error{
+    color: red;
+ }
+
+ .whisper{
+    color: grey;
+    font-style: italic; 
+ }
+ #chat{
+   height: 300px;
+   overflow-y: scroll;
+   scroll-behavior: auto;
+   
+ }
